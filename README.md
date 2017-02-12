@@ -17,3 +17,9 @@ library yang digunakan di python
 
 install menggunakan pip
 
+
+pip install numpy
+
+pip install -U scikit-learn
+
+pip install Sastrawi
