@@ -23,3 +23,14 @@ pip install numpy
 pip install -U scikit-learn
 
 pip install Sastrawi
+
+Formula yg digunakan : 
+
+tf = jumlah terms di dokumen tanpa normalisasi  (biasanya dilakukan normalisasi di library)
+df = jumlah terms di dokumen mana saja yg muncul
+
+formula tfidf yg digunakan sesuai di kelas
+tf-idf[i,j] = tf[i,j]*log(Ndocument/df[i])
+
+formula cosinus similarity mengmbil konsep perhitungan angle di vector cos(x)=a.b/||a||||b||
+
